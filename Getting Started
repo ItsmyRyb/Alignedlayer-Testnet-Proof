@@ -1,9 +1,6 @@
 # ALIGNEDLAYER PUBLIC PROOF TASK  
 
-![image](https://github.com/ItsmyRyb/Alignedlayer-Testnet-Proof/blob/main/Aligned%20Testnet.jpg)
-
-
-## Getting Started 
+## Getting Srtarted 
 
 ```
 sudo apt update -y
@@ -15,8 +12,7 @@ sudo apt upgrade -y
 sudo apt-get install curl -y
 ```
 
-### Download ALignedProof 
-![image](https://github.com/ItsmyRyb/Alignedlayer-Testnet-Proof/blob/main/Proof%2001.jpg)
+Download ALignedProof 
 
 ```
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/install_aligned.sh | bash
@@ -26,10 +22,7 @@ curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batche
 source /root/.bashrc
 ```
 
-
-### Download an example SP1 proof file with it's ELF file 
-![image](https://github.com/ItsmyRyb/Alignedlayer-Testnet-Proof/blob/main/Proof%2002.jpg)
-
+Download an example SP1 proof file with it's ELF file 
 
 ```
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
@@ -37,8 +30,6 @@ curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batche
 
 
 ### Sending proof 
-
-![image](https://github.com/ItsmyRyb/Alignedlayer-Testnet-Proof/blob/main/itsmyryb-proof-01.jpg)
 
 ```
 rm -rf ~/aligned_verification_data/ &&
