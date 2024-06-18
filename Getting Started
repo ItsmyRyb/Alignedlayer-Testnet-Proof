@@ -10,7 +10,7 @@ sudo apt-get install curl -y
 Download ALignedProof 
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/install_aligned.sh | bash
 
-source /root/.bashrc
+source /home/gitpod/.bashrc
 
 Download an example SP1 proof file with it's ELF file 
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
